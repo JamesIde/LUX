@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/73edbe502b.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+        integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>LUX</title>
+</head>
+
+<body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">LUX</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section id="showcase">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#carousel" data-slide-to="0"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                            <h1 class="display-3">Heading One</h1>
+                            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab modi error
+                                corrupti beatae! Molestiae temporibus, itaque mollitia distinctio tempora possimus?
+                            </p>
+                            <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-center mb-5">
+                            <h1 class="display-3">Heading Two</h1>
+                            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab modi error
+                                corrupti beatae! Molestiae temporibus, itaque mollitia distinctio tempora possimus?
+                            </p>
+                            <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-image-3 ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-left mb-5">
+                            <h1 class="display-3">Heading Three</h1>
+                            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab modi error
+                                corrupti beatae! Molestiae temporibus, itaque mollitia distinctio tempora possimus?
+                            </p>
+                            <a href="#" class="btn btn-success btn-lg">Don't Miss Out!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Indicators arrow -->
+            <a href="#carousel" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#carousel" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Icons -->
+    <section id="home-icons" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 text-center">
+                    <i class="fas fa-cogs fa-3x mb-2"></i>
+                    <h3>Turning Gears</h3>
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, perspiciatis.</p>
+                </div>
+                <div class="col-md-4 mb-4 text-center">
+                    <i class="fas fa-cloud fa-3x mb-2"></i>
+                    <h3>Sending Data</h3>
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, perspiciatis.</p>
+                </div>
+                <div class="col-md-4 mb-4 text-center">
+                    <i class="fas fa-cart-plus fa-3x mb-2"></i>
+                    <h3>Providing Value</h3>
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, perspiciatis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Home Heading Section -->
+    <section id="home-heading" class="py-5">
+        <div class="dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container pt-5">
+                        <h1>Are You Ready?</h1>
+                        <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                            commodi quam voluptatum debitis, veritatis vitae!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info -->
+    <section id="info py-3 ">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere magni totam itaque vel. Molestias
+                        ducimus sapiente, ex unde obcaecati magnam!</p>
+                    <a href="about.html" class="btn btn-outline-danger btn-large">Learn More</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/laptop.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Autoplay -->
+    <section id="video-play">
+        <div class="dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container py-5">
+                        <a href="#" class="video" data-video="https://www.youtube.com/embed/SkTEgF873h0"
+                            data-toggle="modal" data-target="#videoModal">
+                            <i class="fas fa-play fa-3x"></i>
+                        </a>
+                        <h1>See What We Do</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Photo Gallery -->
+
+    <section id="gallery py-5" class="text-center py-3">
+        <div class="container">
+            <h1 class="text-centered">Photo Gallery</h1>
+            <p class="text-centered">View the images below</p>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/600x600" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="600" data-width="600">
+                        <img src="https://source.unsplash.com/random/600x600" alt="" class="img-fluid"></a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/601x601" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="601" data-width="601">
+                        <img src="https://source.unsplash.com/random/601x601" alt="" class="img-fluid"></a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/602x602" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="602" data-width="602">
+                        <img src="https://source.unsplash.com/random/602x602" alt="" class="img-fluid"></a>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/605x605" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="605" data-width="605">
+                        <img src="https://source.unsplash.com/random/605x605" alt="" class="img-fluid"></a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/606x606" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="606" data-width="606">
+                        <img src="https://source.unsplash.com/random/606x606" alt="" class="img-fluid"></a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/607x607" data-toggle="lightbox"
+                        data-gallery="img-gallery" data-height="607" data-width="607">
+                        <img src="https://source.unsplash.com/random/607x607" alt="" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Letter -->
+    <section id="newsletter" class="bg-dark p-5 text-center text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Sign Up For Our Newsletter</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum doloremque
+                        iure rem laboriosam excepturi cumque.</p>
+                    <div class="form-inline justify-content-center">
+                        <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">
+                        <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Email">
+                        <button class="btn btn-primary mb-2">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="text-center text-white p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy; 2021 LUX</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Model -->
+    <div class="modal fade" id="videoModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                    <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <span id="year"></span>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+        integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+        //Lightbox user click open photo
+        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+
+
+        $(function () {
+            // Auto play modal video
+            $(".video").click(function () {
+                var theModal = $(this).data("target"),
+                    videoSRC = $(this).attr("data-video"),
+                    videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+                $(theModal + ' iframe').attr('src', videoSRCauto);
+                $(theModal + ' button.close').click(function () {
+                    $(theModal + ' iframe').attr('src', videoSRC);
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
